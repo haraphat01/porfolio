@@ -18,3 +18,23 @@ body {
     width: 80%;
     margin: auto;
 }
+
+.profile_pic {
+    width: 300px;
+    height: auto;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.arafat {
+    font-size: 3em;
+    color: rgb(247, 172, 5);
+}
+
+.full {
+    font-size: 1.3em;
+}
+
+.tech {
+    color: rgb(247, 172, 5);
+}
