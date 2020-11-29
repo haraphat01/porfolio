@@ -13,7 +13,8 @@ body {
 }
 
 .info {
-    background-color: yellow;
+    background-color: rgb(247, 172, 5);
     height: 4em;
     width: 80%;
+    margin: auto;
 }
