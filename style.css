@@ -38,3 +38,7 @@ body {
 .tech {
     color: rgb(247, 172, 5);
 }
+
+.twitter :hover {
+    background-color: yellow;
+}
