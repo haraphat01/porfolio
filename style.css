@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: #0F2027;
     /* fallback for old browsers */
@@ -41,4 +45,24 @@ body {
 
 .twitter :hover {
     background-color: yellow;
+}
+
+@media only screen and (max-width: 600px) {
+    .info {
+        height: 5em;
+        width: 100%;
+        margin: auto;
+    }
+    .information {
+        display: flex;
+        flex-direction: column;
+    }
+    .profile_pic {
+        width: 200px;
+        height: auto;
+        margin-top: 50px;
+    }
+    info-div {
+        margin-right: 30px;
+    }
 }
