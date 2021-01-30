@@ -1,96 +1,104 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background: #0F2027;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: white;
-}
-
-.text {
-    margin-top: 5em
-}
-
-.info {
-    background-color: rgb(247, 172, 5);
-    height: 4em;
-    width: 80%;
-    margin: auto;
-}
-
-.profile_pic {
-    width: 300px;
-    height: auto;
-    margin-left: 130px;
-    margin-top: 50px;
-}
-
-.arafat {
-    font-size: 3em;
-    color: rgb(247, 172, 5);
-}
-
-.full {
-    font-size: 1.3em;
-}
-
-.tech {
-    color: rgb(247, 172, 5);
-}
-
-.twitter :hover {
-    background-color: yellow;
-}
-
-.card-body {
-    background: #0F2027;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: white;
-}
-
-.project {
-    color: rgb(247, 172, 5);
-}
-
-.card1 a:hover {
-    border-color: rgb(247, 172, 5);
-}
-
-.footer {
-    background-color: rgb(247, 172, 5);
-    height: 3em;
-    width: 100%;
-    margin: auto;
-}
-
-@media only screen and (max-width: 600px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        background: #0F2027;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+    }
+    
+    .text {
+        margin-top: 5em
+    }
+    
     .info {
-        height: 5em;
+        background-color: rgb(247, 172, 5);
+        height: 4em;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .profile_pic {
+        width: 300px;
+        height: auto;
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+    
+    .arafat {
+        font-size: 3em;
+        color: rgb(247, 172, 5);
+    }
+    
+    .full {
+        font-size: 1.3em;
+    }
+    
+    .tech {
+        color: rgb(247, 172, 5);
+    }
+    
+    .twitter :hover {
+        background-color: yellow;
+    }
+    
+    .card-body {
+        background: #0F2027;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+    }
+    
+    .project {
+        color: rgb(247, 172, 5);
+    }
+    
+    .card1 a:hover {
+        border-color: rgb(247, 172, 5);
+    }
+    
+    .footer {
+        background-color: rgb(247, 172, 5);
+        height: 3em;
         width: 100%;
         margin: auto;
     }
-    .information {
+    
+    .foot {
+        font-size: 1.5em;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
     }
-    .profile_pic {
-        width: 200px;
-        height: auto;
-        margin-top: 50px;
+    
+    @media only screen and (max-width: 600px) {
+        .info {
+            height: 5em;
+            width: 100%;
+            margin: auto;
+        }
+        .information {
+            display: flex;
+            flex-direction: column;
+        }
+        .profile_pic {
+            width: 200px;
+            height: auto;
+            margin-top: 50px;
+        }
+        .info-div {
+            margin-right: 30px;
+        }
+        .mobile {
+            margin: 1em;
+        }
     }
-    .info-div {
-        margin-right: 30px;
-    }
-    .mobile {
-        margin: 1em;
-    }
-}
