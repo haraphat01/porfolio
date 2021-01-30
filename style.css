@@ -65,6 +65,13 @@ body {
     border-color: rgb(247, 172, 5);
 }
 
+.footer {
+    background-color: rgb(247, 172, 5);
+    height: 3em;
+    width: 100%;
+    margin: auto;
+}
+
 @media only screen and (max-width: 600px) {
     .info {
         height: 5em;
